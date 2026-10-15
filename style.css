@@ -1,0 +1,66 @@
+
+/* Xóa khoảng cách mặc định */
+html, body, h1, h2, h3, h4, ul, ol, li, p, a {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/* Tiêu đề chính */
+h1 {
+    color: #000000;
+    margin: 20px 0;
+    font-size: 36px;
+}
+
+/* Tiêu đề cấp 2 */
+h2 {
+    color: #000000;
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+/* Tiêu đề cấp 3 */
+h3 {
+    color: #333333;
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* Danh sách */
+ul {
+    padding-left: 30px;
+    margin: 10px 0 20px;
+}
+
+/* Các mục trong danh sách */
+li {
+    margin-bottom: 5px;
+}
+
+/* Toàn bộ trang web */
+body {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #ffffff;
+}
+
+/* Đoạn văn */
+p {
+    color: #444444;
+    margin: 10px 0;
+}
+
+/* Liên kết */
+a {
+    color: #440000;
+    text-decoration: underline;
+}
+
+/* Hiệu ứng khi di chuột vào liên kết */
+a:hover {
+    color: #cc0000;
+}
